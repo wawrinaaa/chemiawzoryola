@@ -23,6 +23,11 @@ header#mainheader {
     color: white;
 }
 
+p#footer
+{
+    display: none;
+}
+
 header#mainheader p {
     font-size: 0.5em;
     text-shadow: none;
@@ -36,7 +41,7 @@ main {
     height: 75vh;
     /*background: #2c3a8d;*/
     margin: auto;
-    border: 1px solid white;
+    border: 1px solid black;
     overflow: visible;
     text-align: center;
     background: rgb(2,0,36);
@@ -54,11 +59,12 @@ article#formulas {
     height: 100%;
     overflow: scroll !important;
     text-align: left;
+    color: #abc;
     /*background: #3f7e9f;*/
 }
 
 article::-webkit-scrollbar-corner {
-    background-color: black;
+    background-color: transparent;
 }
 
 article#content {
@@ -127,7 +133,7 @@ footer {
 }
 
 .formula:hover {
-    background-color: lightcoral;
+    background-color: #bf00ff;
     border-color: #830808;
 }
 
@@ -254,9 +260,6 @@ span {
     }
 }
 
-
-/* TODO: mobile version for screens < 1070px */
-
 @media only screen and (max-height: 940px) {
     footer {
         font-size: 1.25em;
@@ -293,5 +296,44 @@ span {
     }
     main {
         overflow: scroll;
+    }
+}
+
+/* TODO: mobile version for screens < 1070px */
+@media only screen and (max-width: 1100px){
+    header#mainheader{
+        font-size: 1.5em;
+    }
+    main{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background: rgba(0,212,255,1);
+    }
+    nav
+    {
+        background: rgba(20,18,54,1);
+    }
+    .formula{
+        color: #333; 
+    }
+    .formula:hover{
+        background-color: transparent !important;
+    }
+    footer{
+        display: none;
+    }
+    p#footer
+    {
+        display: block;
+        font-size: 7px;
+    }
+    #bigformula
+    {
+        font-size: 1em !important;
+    }
+    #explanation
+    {
+        font-size: 12px;
     }
 }
