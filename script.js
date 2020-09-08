@@ -158,46 +158,85 @@ let ex351='pOH - wartość liczbowa. Im mniejsze tym środowisko bardziej aalkai
 let ex352='pKb - ujemny logarytm dziesiętny ze stałej dysocjacji zasady. Można znaleźć w tablicach chemicznych';
 let ex353='Cza - stężenie zasady';
 let ex354='Cs - stężenie soli';
-//FIXME: ogarnąć te ciołki
-let ex411='Kc - ';
-let ex412='[C]<sup>c</sup> - ';
-let ex413='[D]<sup>d</sup> - ';
-let ex414='[A]<sup>a</sup> - ';
-let ex415='[B]<sup>b</sup> - ';
 
-let ex421='Kp - ';
-let ex422='pC<sup>c</sup> - ';
-let ex423='p0<sup>c</sup> - ';
-let ex424='pD<sup>c</sup> - ';
-let ex425='pA<sup>c</sup> - ';
-let ex426='pB<sup>c</sup> - ';
+let ex411='Kc - stężeniowa stała równowagi. Jeśli Kc>1 to reakcja biegnie w prawą stronę, a jak Kc<1 reakcja biegnie w lewo.';
+let ex412='[C]<sup>c</sup> - Stężenie pierwszego produktu do potęgi jego wykładnika stechiomtrycznego <br> Dla reakcji biegnącej wedle scematu: aA + bB &#8644; cC + dD';
+let ex413='[D]<sup>d</sup> - Stężenie drugiego produktu do potęgi jego wykładnika stechiomtrycznego <br> Dla reakcji biegnącej wedle scematu: aA + bB &#8644; cC + dD';
+let ex414='[A]<sup>a</sup> - Stężenie pierwszego substratu do potęgi jego wykładnika stechiomtrycznego <br> Dla reakcji biegnącej wedle scematu: aA + bB &#8644; cC + dD';
+let ex415='[B]<sup>b</sup> - Stężenie drugiego substratu do potęgi jego wykładnika stechiomtrycznego <br> Dla reakcji biegnącej wedle scematu: aA + bB &#8644; cC + dD';
 
-let ex431='W - ';
-let ex432='mp o. - ';
-let ex433='mp s. - ';
+let ex421='Kp - ciśnieniowa stała równowagi. Jeśli Kp>1 to reakcja biegnie w prawą stronę, a jak Kp<1 reakcja biegnie w lewo.';
+let ex422='pC<sup>c</sup> - Ciśnienie pierwszego produktu do potęgi jego wykładnika stechiomtrycznego <br> Dla reakcji biegnącej wedle scematu: aA + bB &#8644; cC + dD';
+let ex423='p0 - Ciśnienie standartowe. Może wynosić np. 1atm, 1013hPa lub 1bar.';
+let ex424='pD<sup>c</sup> - Ciśnienie drugiego produktu do potęgi jego wykładnika stechiomtrycznego <br> Dla reakcji biegnącej wedle scematu: aA + bB &#8644; cC + dD';
+let ex425='pA<sup>c</sup> - Ciśnienie pierwszego substratu do potęgi jego wykładnika stechiomtrycznego <br> Dla reakcji biegnącej wedle scematu: aA + bB &#8644; cC + dD';
+let ex426='pB<sup>c</sup> - Ciśnienie drugiego substratu do potęgi jego wykładnika stechiomtrycznego <br> Dla reakcji biegnącej wedle scematu: aA + bB &#8644; cC + dD';
 
-let ex441='p - ';
-let ex442='V - ';
-let ex443='n - ';
-let ex444='R - ';
-let ex445='T - ';
-//----
-let ex511='Cp - ';
-let ex512='ms - ';
-let ex513='mr - ';
+let ex431='W - Wydajność reakcji podawana w procentach';
+let ex432='mp o. - masa produktu otrzymanego';
+let ex433='mp s. - masa produktu spodziewana wedle stechiometrii.';
 
-let ex521='Cp<sub>m</sub> - ';
-let ex512='ns<sub>1</sub> - ';
-let ex523='ns<sub>2</sub> - ';
+let ex441='p - ciśnienie gazu (gazów) najczęściej podawane w hPa lub w Pa';
+let ex442='V - objętość gazu (gazów) najczęściej podawana w dm<sup>3</sup> lub m<sup>3</sup>';
+let ex443='n - łączna liczba moli gazu (gazów)';
+let ex444='R - uniwersalna stała gazowa. Dla [p]=1hPa i [V]=1dm<sup>3</sup> R=83,14. Dla [p]=1Pa i [V]=1m<sup>3</sup> R=8,314.';
+let ex445='T - temperatura podawana w Kelvinach (K)';
 
-let ex531='Cm - ';
-let ex532='ns - ';
-let ex533='V - ';
+let ex511='Cp - stężenie procentowe masowe';
+let ex512='ms - masa substancji rozpuszczonej';
+let ex513='mr - masa roztworu';
 
-let ex541='C<sub>molalne</sub> - ';
-let ex542='ns - ';
-let ex543='m<sub>rozp.</sub>';
+let ex521='Cp<sub>m</sup> - stężenie procentowe molowe';
+let ex522='ns<sub>1</sub> - liczba moli pierwszej substancji';
+let ex523='ns<sub>2</sub> - liczba moli drugiej substancji';
 
+let ex531='Cm - stężenie molowe';
+let ex532='ns - liczba moli substancji';
+let ex533='V - objętość roztworu';
+
+let ex541='C<sub>molalne</sub> - rzadko używany sposób wyrażaniaa stężenia substancji';
+let ex542='ns - liczba moli substancji';
+let ex543='m<sub>rozp.</sub> - masa rozpuszczalnika wyrażona w kilogramach';
+
+let ex611 = '&#945; - NIEOFICJALNE. Określa stopień nienasycenia. Jego wielkość określa ilość wiązań podwójnych/pierścieni';
+let ex612 = 'n<sub>C</sub> - ilość atomów węgla w cząsteczce';
+let ex613 = 'n<sub>H</sub> - ilość atomów wodoru w cząsteczce';
+let ex614 = 'n<sub>X</sub> - ilość atomów halogenków (F, Cl, Br, I) w cząsteczce';
+let ex615 = 'n<sub>N</sub> - ilość atomów azotu w cząsteczce';
+
+let ex621 = '[&#945;]<sub>D</sub> - skręcalność właściwa wspólna dla obu enancjomerów. Brak jednostki.';
+let ex622 = '&#945; - stopień skręcenia światła. Wyrażany w stopniach (&#176;)';
+let ex623 = 'C - stężenie procentowe enencjomeru'; //TODO: jakie stężenie
+
+let ex631 = 'Maksymalna ilość. Nie muszą występować wszystkie jeśli pojawią się diastereoizomery mezo';
+let ex632 = 'Diastereoizomery - izomery optyczne (Konfiguracje R,S lub D,L)';
+
+let ex711 = 'v - szybkość reakcji, czyli szybkość przybywania produktów i ubywania substratów. Podawana w mol/s.';
+let ex712 = '&#916;n<sub>s</sub> - zmiala liczby moli jednego z reagentu.';
+let ex713 = 't - czas reakcji (zmiany liczby moli reagentów)';
+
+let ex721 = '&#916;H<sup>0</sup> - standartowa entalpia reakcji. Podawana w kJ/mol. Jeśli entalpia jest większa od 0, reakcja jest endoenergetyczna, a jeśli mniejsza, to reakcja jest egzoenergetyczna.';
+let ex722 = '&#931;&#916;H<sup>0</sup><sub>p</sub> - suma standartowych entalpii tworzenia wszystkich produktów';
+let ex723 = '>&#931;&#916;H<sup>0</sup><sub>s</sub> - suma standartowych entalpii tworzenia wszystkich substratów';
+
+let ex731 = '&#916;G<sup>0</sup> - standartowa entalpia swobodna reakcji. Podawana w kJ/mol. Jeśli entalpia jest większa od 0, reakcja jest endotermiczna, a jeśli mniejsza, to reakcja jest egzotermiczna.';
+let ex732 = '&#916;H<sup>0</sup> - standartowa entalpia reakcji. Podawana w kJ/mol.';
+let ex733 = 'T - temperatura, w której prowadzona jest reakcja. Podawana w kelvinach (K). Żeby przeliczyć stopnie Celsjusza na Kelviny należy dodać do ilości stopni Celsjusza 273.';
+let ex734 = '&#916;S<sup>0</sup> - standartowa entropia reakcji. Podawana w kJ/mol*K. Entropia jest miarą stopnia nieuporządkowania układu i rozproszenia energii. Zazwyczaj entropia jest mniej ważna od entalpii w celu ustalenia entalpii swobodnej.';
+
+let ex741 = '&#916;S<sup>0</sup> - standartowa entropia reakcji. Podawana w kJ/mol*K. Entropia jest miarą stopnia nieuporządkowania układu i rozproszenia energii.';
+let ex742 = '&#916;G<sup>0</sup> - standartowa entalpia swobodna reakcji. Podawana w kJ/mol. Jeśli entalpia jest większa od 0, reakcja jest endotermiczna, a jeśli mniejsza, to reakcja jest egzotermiczna.';
+let ex743 = '&#916;H<sup>0</sup> - standartowa entalpia reakcji. Podawana w kJ/mol. Jeśli entalpia jest większa od 0, reakcja jest endoenergetyczna, a jeśli mniejsza, to reakcja jest egzoenergetyczna.';
+let ex744 = 'T - temperatura, w której prowadzona jest reakcja. Podawana w kelvinach (K). Żeby przeliczyć stopnie Celsjusza na Kelviny należy dodać do ilości stopni Celsjusza 273.';
+
+let ex751 = 'k - stała szybkości reakcji. Używana w równianiach kinetycznych.';
+let ex752 = 'A - liczba Arrheniusa używana w obliczeniach.';
+let ex753 = 'e - liczba Eulera. Niewymierna wartość wynosząca ~2,718';
+let ex754 = 'Ea - Energia aktywacji. Energia wymagana do zainicjowania reakcji.';
+let ex755 = 'R - uniwersalna stała gazowa. Wynosi 83,14';
+let ex756 = 'T - temperatura, w której prowadzona jest reakcja. Podawana w kelvinach (K). Żeby przeliczyć stopnie Celsjusza na Kelviny należy dodać do ilości stopni Celsjusza 273.';
+
+let ex761='';
 //część właściwa po zmiennych
 
 function execute_formulas(subject)
@@ -1181,17 +1220,17 @@ case 8:
                {
                     case 1:
                         {
-                            document.getElementById("explanation").innerHTML=ex811;
+                            document.getElementById("explanation").innerHTML=ex711;
                             break;
                         }
                     case 2:
                         {
-                            document.getElementById("explanation").innerHTML=ex812;
+                            document.getElementById("explanation").innerHTML=ex712;
                             break;
                         }
                         case 3:
                         {
-                            document.getElementById("explanation").innerHTML=ex813;
+                            document.getElementById("explanation").innerHTML=ex713;
                             break;
                         }
                } 
@@ -1202,17 +1241,17 @@ case 8:
                {
                     case 1:
                         {
-                            document.getElementById("explanation").innerHTML=ex821;
+                            document.getElementById("explanation").innerHTML=ex721;
                             break;
                         }
                     case 2:
                         {
-                            document.getElementById("explanation").innerHTML=ex822;
+                            document.getElementById("explanation").innerHTML=ex722;
                             break;
                         }
                         case 3:
                         {
-                            document.getElementById("explanation").innerHTML=e813;
+                            document.getElementById("explanation").innerHTML=e723;
                             break;
                         }
                } 
@@ -1223,22 +1262,22 @@ case 8:
                {
                     case 1:
                         {
-                            document.getElementById("explanation").innerHTML=ex831;
+                            document.getElementById("explanation").innerHTML=ex731;
                             break;
                         }
                     case 2:
                         {
-                            document.getElementById("explanation").innerHTML=ex832;
+                            document.getElementById("explanation").innerHTML=ex732;
                             break;
                         }
                         case 3:
                             {
-                                document.getElementById("explanation").innerHTML=ex833;
+                                document.getElementById("explanation").innerHTML=ex733;
                                 break;
                             }
                         case 4:
                             {
-                                document.getElementById("explanation").innerHTML=ex834;
+                                document.getElementById("explanation").innerHTML=ex734;
                                 break;
                             }
                } 
@@ -1249,22 +1288,22 @@ case 8:
                {
                     case 1:
                         {
-                            document.getElementById("explanation").innerHTML=ex841;
+                            document.getElementById("explanation").innerHTML=ex741;
                             break;
                         }
                     case 2:
                         {
-                            document.getElementById("explanation").innerHTML=ex842;
+                            document.getElementById("explanation").innerHTML=ex742;
                             break;
                         }
                     case 3:
                         {
-                            document.getElementById("explanation").innerHTML=ex843;
+                            document.getElementById("explanation").innerHTML=ex743;
                             break;
                         }
                     case 4:
                         {
-                            document.getElementById("explanation").innerHTML=ex844;
+                            document.getElementById("explanation").innerHTML=ex744;
                             break;
                         }
                } 
@@ -1275,32 +1314,32 @@ case 8:
                {
                     case 1:
                         {
-                            document.getElementById("explanation").innerHTML=ex851;
+                            document.getElementById("explanation").innerHTML=ex751;
                             break;
                         }
                     case 2:
                         {
-                            document.getElementById("explanation").innerHTML=ex852;
+                            document.getElementById("explanation").innerHTML=ex752;
                             break;
                         }
                     case 3:
                         {
-                            document.getElementById("explanation").innerHTML=ex853;
+                            document.getElementById("explanation").innerHTML=ex753;
                             break;
                         }
                     case 4:
                         {
-                            document.getElementById("explanation").innerHTML=ex854;
+                            document.getElementById("explanation").innerHTML=ex754;
                             break;
                         }
                         case 5:
                         {
-                            document.getElementById("explanation").innerHTML=ex855;
+                            document.getElementById("explanation").innerHTML=ex755;
                             break;
                         }
                     case 6:
                         {
-                            document.getElementById("explanation").innerHTML=ex856;
+                            document.getElementById("explanation").innerHTML=ex756;
                             break;
                         }
                } 
@@ -1311,22 +1350,22 @@ case 8:
                {
                     case 1:
                         {
-                            document.getElementById("explanation").innerHTML=ex861;
+                            document.getElementById("explanation").innerHTML=ex761;
                             break;
                         }
                     case 2:
                         {
-                            document.getElementById("explanation").innerHTML=ex862;
+                            document.getElementById("explanation").innerHTML=ex762;
                             break;
                         }
                     case 3:
                         {
-                            document.getElementById("explanation").innerHTML=ex863;
+                            document.getElementById("explanation").innerHTML=ex763;
                             break;
                         }
                         case 4:
                         {
-                            document.getElementById("explanation").innerHTML=ex864;
+                            document.getElementById("explanation").innerHTML=ex764;
                             break;
                         }
                } 
@@ -1337,22 +1376,22 @@ case 8:
                {
                     case 1:
                         {
-                            document.getElementById("explanation").innerHTML=ex871;
+                            document.getElementById("explanation").innerHTML=ex771;
                             break;
                         }
                     case 2:
                         {
-                            document.getElementById("explanation").innerHTML=ex872;
+                            document.getElementById("explanation").innerHTML=ex772;
                             break;
                         }
                     case 3:
                         {
-                            document.getElementById("explanation").innerHTML=ex873;
+                            document.getElementById("explanation").innerHTML=ex773;
                             break;
                         }
                         case 4:
                         {
-                            document.getElementById("explanation").innerHTML=ex874;
+                            document.getElementById("explanation").innerHTML=ex774;
                             break;
                         }
                } 
@@ -1363,22 +1402,22 @@ case 8:
                {
                     case 1:
                         {
-                            document.getElementById("explanation").innerHTML=ex881;
+                            document.getElementById("explanation").innerHTML=ex781;
                             break;
                         }
                     case 2:
                         {
-                            document.getElementById("explanation").innerHTML=ex882;
+                            document.getElementById("explanation").innerHTML=ex782;
                             break;
                         }
                     case 3:
                         {
-                            document.getElementById("explanation").innerHTML=ex883;
+                            document.getElementById("explanation").innerHTML=ex783;
                             break;
                         }
                         case 4:
                         {
-                            document.getElementById("explanation").innerHTML=ex884;
+                            document.getElementById("explanation").innerHTML=ex784;
                             break;
                         }
                } 
@@ -1389,22 +1428,22 @@ case 8:
                {
                     case 1:
                         {
-                            document.getElementById("explanation").innerHTML=ex898;
+                            document.getElementById("explanation").innerHTML=ex798;
                             break;
                         }
                     case 2:
                         {
-                            document.getElementById("explanation").innerHTML=ex892;
+                            document.getElementById("explanation").innerHTML=ex792;
                             break;
                         }
                     case 3:
                         {
-                            document.getElementById("explanation").innerHTML=ex893;
+                            document.getElementById("explanation").innerHTML=ex793;
                             break;
                         }
                         case 4:
                         {
-                            document.getElementById("explanation").innerHTML=ex894;
+                            document.getElementById("explanation").innerHTML=ex794;
                             break;
                         }
                } 
